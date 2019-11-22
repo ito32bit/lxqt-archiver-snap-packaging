@@ -1,0 +1,5 @@
+parts/
+prime/
+stage/
+*.snap
+*_i386*.txt
