@@ -11,8 +11,8 @@ grade: stable
 confinement: strict
 
 layout:
-  /usr/share:
-    bind: $SNAP/usr/share
+  /usr/share/lxqt-archiver:
+    bind: $SNAP/usr/share/lxqt-archiver
 
 adopt-info: lxqt-archiver-snap
 apps:
