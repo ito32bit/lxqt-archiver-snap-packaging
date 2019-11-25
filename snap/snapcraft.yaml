@@ -100,6 +100,7 @@ parts:
       - libxfixes3
       - qttranslations5-l10n
       - libjson-glib-1.0-0
+      - fcitx-frontend-qt5
       # Supported file types
       #- libarchive13
       - bzip2
