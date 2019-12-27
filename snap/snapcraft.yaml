@@ -65,7 +65,7 @@ parts:
       snapcraftctl set-version $ver
 
     build-snaps:
-      - lxqt-build-tools-snap
+      - lxqt-build-tools-snap/latest/edge
     build-packages:
       - g++
       - libqt5core5a
@@ -164,7 +164,7 @@ parts:
       - -DCMAKE_INSTALL_PREFIX=/usr
 
     build-snaps:
-      - lxqt-build-tools-snap
+      - lxqt-build-tools-snap/latest/edge
     build-packages:
       - g++
       - libexif-dev
