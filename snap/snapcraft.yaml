@@ -19,6 +19,7 @@ apps:
       - bin/desktop-launch
     environment:
       QT_PLUGIN_PATH: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/qt5/plugins
+      HOME: /home/$LOGNAME
     plugs:
       - hardware-observe
       - unity7
