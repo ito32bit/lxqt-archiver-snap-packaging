@@ -12,7 +12,7 @@ Release status:
 [![lxqt-archiver-snap](https://snapcraft.io//lxqt-archiver-snap/badge.svg)](https://snapcraft.io/lxqt-archiver-snap)
 [![lxqt-archiver-snap](https://snapcraft.io//lxqt-archiver-snap/trending.svg?name=0)](https://snapcraft.io/lxqt-archiver-snap)
 
-### Install on your Linux distribution
+## Install on your Linux distribution
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/lxqt-archiver-snap)
 
