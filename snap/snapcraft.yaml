@@ -42,9 +42,9 @@ parts:
     source-type: git
     plugin: cmake
     configflags:
-      - -DCMAKE_INSTALL_PREFIX=/snap/$SNAPCRAFT_PROJECT_NAME/usr
+      - -DCMAKE_INSTALL_PREFIX=/snap/$SNAPCRAFT_PROJECT_NAME/current/usr
     organize:
-      snap/$SNAPCRAFT_PROJECT_NAME/usr: usr
+      snap/$SNAPCRAFT_PROJECT_NAME/current/usr: usr
     after:
       - desktop-qt5
       - libfm-qt-snap
@@ -157,9 +157,9 @@ parts:
     source-type: git
     plugin: cmake
     configflags:
-      - -DCMAKE_INSTALL_PREFIX=/snap/$SNAPCRAFT_PROJECT_NAME/usr
+      - -DCMAKE_INSTALL_PREFIX=/snap/$SNAPCRAFT_PROJECT_NAME/current/usr
     organize:
-      snap/$SNAPCRAFT_PROJECT_NAME/usr: usr
+      snap/$SNAPCRAFT_PROJECT_NAME/current/usr: usr
     build-snaps:
       - lxqt-build-tools-snap/latest/edge
     build-packages:
