@@ -177,9 +177,7 @@ parts:
     stage-packages:
       - libglib2.0-bin
       - shared-mime-info
-      - libexif-dev
-      - libfm-dev
-      - libmenu-cache-dev
+      #
       - libexif12
       - libglib2.0-0
       - libmenu-cache3
@@ -189,6 +187,7 @@ parts:
       - libqt5x11extras5
       - libstdc++6
       - qtbase-abi-5-9-5
+      #
       - libdouble-conversion1
       - libfreetype6
       - libgl1
