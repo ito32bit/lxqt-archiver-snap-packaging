@@ -19,7 +19,6 @@ apps:
       - bin/desktop-launch
     environment:
       QT_PLUGIN_PATH: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/qt5/plugins
-      XDG_DATA_DIRS: $SNAP/usr/share:$XDG_DATA_DIRS
     plugs:
       - hardware-observe
       - unity7
