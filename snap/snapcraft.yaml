@@ -10,12 +10,6 @@ description: |
 grade: stable
 confinement: strict
 
-layout:
-  /usr/share/lxqt-archiver:
-    bind: $SNAP/usr/share/lxqt-archiver
-  /usr/lib/$SNAPCRAFT_ARCH_TRIPLET/lxqt-archiver:
-    bind: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/lxqt-archiver
-
 adopt-info: lxqt-archiver-snap
 apps:
   lxqt-archiver-snap:
@@ -48,7 +42,9 @@ parts:
     source-type: git
     plugin: cmake
     configflags:
-      - -DCMAKE_INSTALL_PREFIX=/usr
+      - -DCMAKE_INSTALL_PREFIX=/snap/$SNAPCRAFT_PROJECT_NAME/usr
+    organize:
+      snap/$SNAPCRAFT_PROJECT_NAME/usr: usr
     after:
       - desktop-qt5
       - libfm-qt-snap
@@ -161,8 +157,9 @@ parts:
     source-type: git
     plugin: cmake
     configflags:
-      - -DCMAKE_INSTALL_PREFIX=/usr
-
+      - -DCMAKE_INSTALL_PREFIX=/snap/$SNAPCRAFT_PROJECT_NAME/usr
+    organize:
+      snap/$SNAPCRAFT_PROJECT_NAME/usr: usr
     build-snaps:
       - lxqt-build-tools-snap/latest/edge
     build-packages:
