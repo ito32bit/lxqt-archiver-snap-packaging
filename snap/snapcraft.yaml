@@ -123,6 +123,7 @@ parts:
       - cpio
       - try: [rar] # for s390x, ppc64el, arm64, armhf
       - unrar-free
+      - zstd
       #
       #- papirus-icon-theme
 
