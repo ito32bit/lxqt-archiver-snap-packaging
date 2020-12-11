@@ -4,14 +4,6 @@ A simple & lightweight Qt file archiver.
 
 This is the unofficial snap packaging.  
 
-## Snap packaging
-
-Build status: [![Snap Status](https://build.snapcraft.io/badge/ito32bit/lxqt-archiver-snap-packaging.svg)](https://build.snapcraft.io/user/ito32bit/lxqt-archiver-snap-packaging)
-
-Release status: 
-[![lxqt-archiver-snap](https://snapcraft.io//lxqt-archiver-snap/badge.svg)](https://snapcraft.io/lxqt-archiver-snap)
-[![lxqt-archiver-snap](https://snapcraft.io//lxqt-archiver-snap/trending.svg?name=0)](https://snapcraft.io/lxqt-archiver-snap)
-
 ## Install on your Linux distribution
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/lxqt-archiver-snap)
